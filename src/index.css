@@ -78,3 +78,7 @@
   left: -18%;
   top: 0;
 }
+
+.customLoader{
+  transition: all 1s ease 0s;
+}
