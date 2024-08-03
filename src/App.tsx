@@ -5,7 +5,7 @@ import MainBanner from './components/main-banner'
 import Projects from './components/projects'
 
 function App() {
-
+  // Hello
   return (
     <>
       {/* <img src="dark-logo.png" width={250} height={50} alt="Logo" /> */}
