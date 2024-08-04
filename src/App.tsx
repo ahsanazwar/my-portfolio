@@ -42,11 +42,6 @@ function App() {
         });
     }, [])
 
-    // const addtoRefs = (el:any) => {
-    //     if (el && !ref.current.includes(el)) {
-    //         ref.current.push(el);
-    //     }
-    // }
 
   return (
     <>
@@ -54,7 +49,7 @@ function App() {
       <main className="bg-black pt-10 relative z-10"> 
       <img   src="pattern-left.png" className="left-pattern fixed -left-7 bottom-7 -z-10 w-72 opacity-10"/>
         <img data-speed="0.8" src="pattern-right.png" className="left-pattern fixed -right-7 bottom-7 -z-10 w-72 opacity-10"/>
-        {/* <WebLoader/> */}
+        <WebLoader/>
         <MainBanner/>
         <Projects/>
         <Education/>
