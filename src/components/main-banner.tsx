@@ -1,4 +1,3 @@
-// interface Props {
 
 import Bio from "./bio";
 import Contact from "./contact";
@@ -7,10 +6,12 @@ import IntroSection from "./intro-section";
 import ProjectsDone from "./projects-done";
 import Social from "./social";
 
-    
-// }
+
  
 const MainBanner = () => {
+
+    
+
     return ( 
         <>
             <div>
