@@ -1,49 +1,38 @@
-// interface Props {
-//     title: string,
-//     country: string,
-//     email: string,
-//     phone: string
-// }
-
+import SectionContainer from "../layouts/section-container";
 import EducationList from "./education-list";
 
  
 const Education = () => {
     return ( 
-        <div className="py-3">
-            <div className="flex items-center py-[100px] w-full flex-col">
-                <div className="container pt-[120px] border-t-[2px] border-[#4b4b4b]">
-                    <h1 className="text-purple text-[45px] text-center mb-24">Education & Certificates</h1>    
-                    <div className="flex flex-col items-center">
-                        <ul className="customList w-[18%] relative">
+        <SectionContainer heading="Education & Certificates">
+            <div className="flex flex-col items-center">
+                <ul className="customList w-[18%] relative">
 
-                            <EducationList
-                                duration="2021-2023"
-                                degree="Master Degree in "
-                                title="Computer Science"
-                                uni={"Iqra University, Karachi Pakistan"}
-                            />
+                    <EducationList
+                        duration="2021-2023"
+                        degree="Master Degree in "
+                        title="Computer Science"
+                        uni={"Iqra University, Karachi Pakistan"}
+                    />
 
-                            <EducationList
-                                duration="2014-2018"
-                                degree="Bachelor Degree in "
-                                title="Computer Science"
-                                uni={"Iqra University, Karachi Pakistan"}
-                            />
-                        </ul>
+                    <EducationList
+                        duration="2014-2018"
+                        degree="Bachelor Degree in "
+                        title="Computer Science"
+                        uni={"Iqra University, Karachi Pakistan"}
+                    />
+                </ul>
 
-                        <ul className="customList w-[18%] relative">
-                            <EducationList
-                                duration="2023"
-                                degree="React & Redux"
-                                title="Certificate"
-                                uni={"Udemy"}
-                            />
-                        </ul>
-                    </div>
-                </div>
-            </div>  
-        </div> 
+                <ul className="customList w-[18%] relative">
+                    <EducationList
+                        duration="2023"
+                        degree="React & Redux"
+                        title="Certificate"
+                        uni={"Udemy"}
+                    />
+                </ul>
+            </div>
+        </SectionContainer>
      );
 }
 
