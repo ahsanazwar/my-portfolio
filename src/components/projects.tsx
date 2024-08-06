@@ -7,12 +7,12 @@ const Projects = () => {
         <SectionContainer heading="Projects">
             <div className="flex justify-between flex-wrap gap-5">
                 
-                <ProjectCard
+                {/* <ProjectCard
                     title={"Gulf Air"}
                     image="gulf-air.png"
                     description="This is a official website of Gulf Air. I am the part of the team who worked on this project"
                     url="https://www.gulfair.com/"
-                />
+                /> */}
                 
                 <ProjectCard
                     title={"Nida Ul Quran"}
@@ -43,9 +43,16 @@ const Projects = () => {
                 />
 
                 <ProjectCard
+                    title={"Sharjah Islamic Bank"}
+                    image="sib.png"
+                    description="This is a Sharjah Islamic Bank official website. I did worked on this project"
+                    url="http://gretiquemartin.com"
+                />
+
+                <ProjectCard
                     title={"Gretique Matin"}
                     image="gretique-matin.png"
-                    description="This is a Umm Al Emmarat website. I did worked on this website"
+                    description="This is a Gretique Martin portfolio website. I created this project from scratch"
                     url="http://gretiquemartin.com"
                 />
                 
