@@ -11,7 +11,7 @@ const Social = ({title,fbLink,githhubLink,linkedinLink}:Props) => {
         <div className="py-3">
                                     
             <h2 className="text-purple mb-2">{title}</h2>
-            <ul className="flex items-center justify-end gap-5">
+            <ul className="flex items-center justify-center sm:justify-end gap-5">
                 <li>
                     <a href={`${fbLink}`}>
                         <img className="w-[60px] h-[60px]" src="fb.svg"/>

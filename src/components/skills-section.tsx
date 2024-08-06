@@ -22,9 +22,11 @@ const SkillsSection = () => {
       };
     return ( 
         <SectionContainer heading="Skills">
-            <ReactSkillbar skills={skills} colors={colors}>
-
-            </ReactSkillbar>
+            <div className="flex justify-center">
+              <div className="w-11/12 md:w-2/3">
+                <ReactSkillbar skills={skills} colors={colors} symbolColor = "#FF29A6"/>
+              </div>
+            </div>
         </SectionContainer>
      );
 }

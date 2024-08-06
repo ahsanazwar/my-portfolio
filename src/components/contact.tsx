@@ -7,7 +7,7 @@ interface Props {
  
 const Contact = ({title,country,email,phone}:Props) => {
     return ( 
-        <div className="py-3">
+        <div className="py-8 sm:py-3">
             <h2 className="text-purple mb-2">{title}</h2>
             <div className="leading-7">
                 <p className="text-white text-lg">{country}</p>

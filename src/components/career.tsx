@@ -5,7 +5,7 @@ const Career = () => {
     return ( 
         <SectionContainer heading="Experience">
             <div className="flex flex-col items-center">
-                <ul className="customList w-[18%] relative">
+                <ul className="customList text-center sm:text-left w-4/5 sm:w-[18%] relative">
                     <JobList
                         duration="2023-Present"
                         title="Frontend Developer"
@@ -22,7 +22,7 @@ const Career = () => {
                         duration="2019-2020"
                         title="Frontend Developer"
                         company={"Finesols"}
-                        url="www.finesols.com/"
+                        url="www.finesols.com"
                     />
                     <JobList
                         duration="2018-2019"

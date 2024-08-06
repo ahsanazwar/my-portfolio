@@ -12,7 +12,7 @@ const IntroSection = ({title,designation}:Props) => {
                     <br/>
                     {title}
                     <br/>
-                    <span className="text-purple text-[45px]">{designation}</span>
+                    <span className="text-purple text-[2.18rem] sm:text-[2.8rem]">{designation}</span>
                 </h1>
             </div>
         </>

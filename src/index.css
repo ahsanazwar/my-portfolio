@@ -82,3 +82,21 @@
 .customLoader{
   transition: all 1s ease 0s;
 }
+
+.skillbar-percent{
+  font-size: 1rem !important;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  
+  .customList li:before{
+    content: none;
+  }
+  .customList:after{
+    content: none;
+  }
+  .skillbar-percent{
+    font-size: 1.2rem !important;
+  }
+ }

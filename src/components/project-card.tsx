@@ -8,8 +8,8 @@ interface Props {
 const ProjectCard = ({title,image,description,url}:Props) => {
     return ( 
         <>
-            <div className="w-[30%] mb-12">
-                <a href={url} target="_blank" className="block hover:bg-[#353333]">
+            <div className="w-full sm:w-[30%] mb-12 last:mb-0">
+                <a href={url} target="_blank" className="bg-[#353333] sm:bg-transparent block hover:bg-[#353333]">
                     <div>
                         <img src={image}/>
                     </div>

@@ -19,10 +19,15 @@ const MainBanner = () => {
                     title="Ahsan Azwar"
                     designation="Frontend Developer"
                 />
-                <div className="flex items-center py-[70px] w-full flex-col">
+                <div className="flex items-center py-[2.375rem] sm:py-[4.375rem] w-full flex-col">
                     <div className="container">
-                        <div className="flex justify-between items-center">
-                            <div className="md:w-96">
+                        <div className="flex flex-col sm:flex-row justify-between items-center">
+                            
+                            <div className="sm:order-2 bg-purple-500 shadow-[0_0px_8px_2px_#ff29a6]">
+                                <img src="dp.jpg" width={230} height={600}/>
+                            </div>
+                            
+                            <div className="text-center sm:text-left sm:order-1  w-full sm:w-96">
                                 <Bio
                                     title="Bio"
                                     content="Highly skilled front-end developer with 6+ years of experience building
@@ -38,11 +43,7 @@ const MainBanner = () => {
                                 />   
                             </div>
 
-                            <div className="bg-purple-500 shadow-[0_0px_8px_2px_#ff29a6]">
-                                <img src="dp.jpg" width={230} height={600}/>
-                            </div>
-
-                            <div className="md:w-96 text-right">
+                            <div className="py-8 sm:py-3 sm:order-3 w-full sm:w-96 text-center sm:text-right">
                                 <Social 
                                     title="Social Profile"
                                     fbLink="https://www.facebook.com/ahsan.azwar"
