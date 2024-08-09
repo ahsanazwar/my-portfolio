@@ -1,4 +1,4 @@
-import { createContext, Dispatch, SetStateAction, useState, ReactNode } from "react";
+import { createContext, Dispatch, SetStateAction} from "react";
 
 // export type ThemeType = "light" | "dark";
 export type ThemeType = string;
@@ -10,7 +10,7 @@ export interface ThemeContextInterface {
 
 export const defaultState = {
     theme: "dark",
-    setTheme: (theme: ThemeType) => {}
+    setTheme: () => {}
 } as ThemeContextInterface
 
 const ThemeContext = createContext(defaultState);

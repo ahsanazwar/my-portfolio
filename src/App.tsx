@@ -1,6 +1,6 @@
 
 import './App.css';
-import { useContext, useEffect, useRef, useState } from 'react';
+import { useEffect, useRef} from 'react';
 import Career from './components/career'
 import Education from './components/education'
 import MainBanner from './components/main-banner'
