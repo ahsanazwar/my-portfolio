@@ -13,7 +13,7 @@ import SkillsSection from './components/skills-section';
 
 import ReactGA from "react-ga4";
 
-const Track_ID = "453607483"
+const Track_ID = "G-VEBTE3N60Y"
 
 ReactGA.initialize(Track_ID);
 
@@ -46,6 +46,12 @@ function App() {
         }
         }
       });
+
+      // ReactGA.initialize([
+      //   {
+      //     trackingId: Track_ID,
+      //   },
+      // ]);
 
   }, [])
 

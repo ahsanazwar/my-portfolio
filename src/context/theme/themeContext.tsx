@@ -16,23 +16,3 @@ export const defaultState = {
 const ThemeContext = createContext(defaultState);
  
 export default ThemeContext;
-
-
-// type Props = {
-//     children : ReactNode,
-// }
-
-
-// export default function ThemeState({children}:Props)
-// {
-    
-//     const [theme, setTheme] = useState<ThemeType>("dark");
-
-//     return ( 
-//         <ThemeContext.Provider value={{ theme , setTheme }}>
-//             {children}
-//         </ThemeContext.Provider>
-//      );
-// }
- 
-// export default themeState;
