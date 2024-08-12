@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ThemeContext,{ThemeType} from "./themeContext";
+import ThemeContext,{ThemeType} from '@context/theme/themeContext';
 
 
 type Props = {
@@ -9,7 +9,7 @@ type Props = {
 
 const themeState = ({children}:Props) => {
     
-    const [theme, setTheme] = useState<ThemeType>("dark");
+    const [theme, setTheme] = useState<ThemeType>(true);
 
     return ( 
         <ThemeContext.Provider value={{ theme , setTheme }}>

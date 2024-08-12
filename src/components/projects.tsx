@@ -1,5 +1,5 @@
-import SectionContainer from "../layouts/section-container";
-import ProjectCard from "./project-card";
+import SectionContainer from "@layouts/section-container";
+import ProjectCard from "@components/project-card";
 
 const Projects = () => {
     return ( 

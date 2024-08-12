@@ -1,5 +1,5 @@
-import SectionContainer from "../layouts/section-container";
-import EducationList from "./education-list";
+import SectionContainer from "@layouts/section-container";
+import EducationList from "@components/education-list";
 
  
 const Education = () => {

@@ -1,7 +1,7 @@
 import { createContext, Dispatch, SetStateAction} from "react";
 
 // export type ThemeType = "light" | "dark";
-export type ThemeType = string;
+export type ThemeType = boolean;
 
 export interface ThemeContextInterface {
     theme: ThemeType,
@@ -9,7 +9,7 @@ export interface ThemeContextInterface {
 };
 
 export const defaultState = {
-    theme: "dark",
+    theme: true,
     setTheme: () => {}
 } as ThemeContextInterface
 

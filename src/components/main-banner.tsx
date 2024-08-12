@@ -5,12 +5,8 @@ import Experience from "./experience";
 import IntroSection from "./intro-section";
 import ProjectsDone from "./projects-done";
 import Social from "./social";
-
-
  
 const MainBanner = () => {
-
-    
 
     return ( 
         <>
@@ -23,7 +19,7 @@ const MainBanner = () => {
                     <div className="container">
                         <div className="flex flex-col sm:flex-row justify-between items-center">
                             
-                            <div className="sm:order-2 bg-purple-500 shadow-[0_0px_8px_2px_#ff29a6]">
+                            <div className="sm:order-2 bg-purple-500 shadow-[0_0px_8px_2px_#007cd7] dark:shadow-[0_0px_8px_2px_#ff29a6]">
                                 <img src="dp.jpg" width={230} height={600}/>
                             </div>
                             

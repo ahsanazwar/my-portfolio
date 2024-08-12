@@ -3,14 +3,13 @@ interface Props {
     fbLink: string,
     githhubLink: string,
     linkedinLink: string,
-
 }
  
 const Social = ({title,fbLink,githhubLink,linkedinLink}:Props) => {
     return ( 
         <div className="py-3">
                                     
-            <h2 className="text-purple mb-2">{title}</h2>
+            <h2 className="text-blue dark:text-purple mb-2">{title}</h2>
             <ul className="flex items-center justify-center sm:justify-end gap-5">
                 <li>
                     <a href={`${fbLink}`}>

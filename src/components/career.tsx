@@ -1,5 +1,5 @@
-import SectionContainer from "../layouts/section-container";
-import JobList from "./job-list";
+import SectionContainer from "@layouts/section-container";
+import JobList from "@components/job-list";
 
 const Career = () => {
     return ( 
