@@ -1,6 +1,4 @@
-import SectionContainer from "@layouts/section-container";
 
- 
 const CopyRight = () => {
     return ( 
         <div className="sm:py-3">
