@@ -15,7 +15,7 @@ const Career = () => {
                     <JobList
                         duration="2020-2023"
                         title="Frontend Developer"
-                        company={"Traffic Digital"}
+                        company={"The Collective"}
                     />
 
                     <JobList

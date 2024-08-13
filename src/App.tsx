@@ -14,6 +14,7 @@ import SkillsSection from '@components/skills-section';
 import Navbar from '@components/nav-bar';
 import ThemeContext from '@context/theme/themeContext';
 import CopyRight from '@components/copy-right';
+import DownloadResume from '@components/download-resume';
 
 const Track_ID = "G-VEBTE3N60Y"
 ReactGA.initialize(Track_ID);
@@ -44,6 +45,38 @@ function App() {
         }
         }
       });
+
+      gsap.set('.follower',{xPercent:-50,yPercent:-50});
+      gsap.set('.cursor',{xPercent:-50,yPercent:-50});
+
+      var follow = document.querySelector('.follower');
+      var cur = document.querySelector('.cursor');
+      const buttons = document.querySelectorAll("a");
+
+
+      window.addEventListener('mousemove',e => {
+          gsap.to(cur,0.2,{x:e.clientX,y:e.clientY});
+          gsap.to(follow,0.9,{x:e.clientX,y:e.clientY});
+      });
+    
+    buttons.forEach(function(button) {
+      button?.addEventListener("mouseenter", function(e) {
+        gsap.to('.follower', {
+          x: e.clientX + 3,
+          y: e.clientY + 3,
+          transform: `scale(2)`,
+        });
+      });
+    });
+
+    buttons.forEach(function(button) {
+      button?.addEventListener('mouseleave', () => {
+        gsap.to('.follower', {
+          transform: `scale(1)`,
+        });
+      });
+    });
+    
   }, [])
 
 
@@ -54,8 +87,12 @@ function App() {
           <main className="dark:bg-black pt-10 px-7 relative z-10"> 
               <img src="pattern-left.png" className="custom-pattern fixed -left-7 bottom-7 -z-10 w-72 opacity-10 hidden sm:block"/>
               <img data-speed="0.8" src="pattern-right.png" className="custom-pattern fixed -right-7 bottom-7 -z-10 w-72 opacity-10 hidden sm:block"/>
+              <div className="cursor"></div>
+              <div className="follower bg-blue dark:bg-purple"></div>
+
             <WebLoader/>
             <Navbar/>
+            <DownloadResume/>
             <MainBanner/>
             <Projects/>
             <Education/>
