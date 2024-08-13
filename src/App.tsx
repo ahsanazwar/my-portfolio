@@ -87,8 +87,8 @@ function App() {
           <main className="dark:bg-black pt-10 px-7 relative z-10"> 
               <img src="pattern-left.png" className="custom-pattern fixed -left-7 bottom-7 -z-10 w-72 opacity-10 hidden sm:block"/>
               <img data-speed="0.8" src="pattern-right.png" className="custom-pattern fixed -right-7 bottom-7 -z-10 w-72 opacity-10 hidden sm:block"/>
-              <div className="cursor"></div>
-              <div className="follower bg-blue dark:bg-purple"></div>
+              <div className="hidden sm:block"></div>
+              <div className="follower bg-blue dark:bg-purple hidden sm:block"></div>
 
             <WebLoader/>
             <Navbar/>
