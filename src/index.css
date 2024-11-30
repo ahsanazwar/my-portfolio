@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  height: 100%;
+}
+
+html body{
+  height: 100%;
+  position: relative;
+}
+
+html body #root{
+  height: 100%;
+}
+
+.thumb-vertical {
+  background: #FF29A6;
+  z-index: 9999;
+  position: relative;
+}
+
 *{
   @apply transition-colors duration-700;
 }
