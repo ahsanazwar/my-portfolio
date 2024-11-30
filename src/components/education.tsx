@@ -21,9 +21,7 @@ const Education = () => {
                         title="Computer Science"
                         uni={"Iqra University, Karachi Pakistan"}
                     />
-                </ul>
-
-                <ul className="customList text-center sm:text-left w-4/5 sm:w-[18%] relative">
+                    
                     <EducationList
                         duration="2023"
                         degree="React & Redux"
