@@ -7,7 +7,13 @@ const Career = () => {
             <div className="flex flex-col items-center">
                 <ul className="customList text-center sm:text-left w-4/5 sm:w-[18%] relative">
                     <JobList
-                        duration="06/2023-07/2024"
+                        duration="03/2025-2025-Present"
+                        title="Frontend Developer"
+                        company={"e-Tools Softare"}
+                        url="https://e-tools.com.au"
+                    />
+                    <JobList
+                        duration="06/2023-03/2025"
                         title="Frontend Developer"
                         company={"EY Global"}
                         url="www.ey.com/en_gl"
