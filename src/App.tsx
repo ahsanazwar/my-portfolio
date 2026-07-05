@@ -15,6 +15,7 @@ import Navbar from '@components/nav-bar';
 import ThemeContext from '@context/theme/themeContext';
 import CopyRight from '@components/copy-right';
 import DownloadResume from '@components/download-resume';
+import SkillsChips from '@components/skills-chips';
 
 const Track_ID = "G-VEBTE3N60Y"
 ReactGA.initialize(Track_ID);
@@ -94,6 +95,7 @@ function App() {
             <Navbar/>
             <DownloadResume/>
             <MainBanner/>
+            <SkillsChips/>
             <Projects/>
             <Education/>
             <Career/>
