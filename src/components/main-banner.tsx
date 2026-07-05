@@ -26,8 +26,8 @@ const MainBanner = () => {
                             <div className="text-center sm:text-left sm:order-1  w-full sm:w-96">
                                 <Bio
                                     title="Bio"
-                                    content="Highly skilled front-end developer with 6+ years of experience building
-                                    websites and web applications using React JS, Next JS and TypeScript.
+                                    content="Highly skilled front-end developer with 8+ years of experience building
+                                    websites and web applications using React JS, Next JS, TypeScript, ZOD, React Hook Form.
                                     Passionate about learning new tools and programming languages."
                                 />
 
@@ -49,7 +49,7 @@ const MainBanner = () => {
 
                                 <Experience
                                     title="Years Of Experience"
-                                    experience="6+"
+                                    experience="8+"
                                 />
                                 
                                 <ProjectsDone
