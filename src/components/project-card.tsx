@@ -14,7 +14,7 @@ const ProjectCard = ({title,image,description,url}:Props) => {
                         <img src={image}/>
                     </div>
                     <div className="p-4">
-                        <h3 className="text-blue dark:text-purple py-4">{title}</h3>
+                        <h3 className="text-blue dark:text-purple py-2">{title}</h3>
                         <p>{description}</p>
                     </div>
                 </a>

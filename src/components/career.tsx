@@ -3,9 +3,9 @@ import JobList from "@components/job-list";
 
 const Career = () => {
     return ( 
-        <SectionContainer heading="Experience">
-            <div className="flex flex-col items-center">
-                <ul className="customList text-center sm:text-left w-4/5 sm:w-[18%] relative">
+        // <SectionContainer heading="Experience">
+            <div className="flex flex-col items-center w-4/5 sm:w-[50%]">
+                <ul className="customList text-center sm:text-left relative">
                     <JobList
                         duration="03/2025-2025-Present"
                         title="Frontend Developer"
@@ -37,7 +37,7 @@ const Career = () => {
                     />
                 </ul>
             </div>
-        </SectionContainer>
+        // </SectionContainer>
      );
 }
 

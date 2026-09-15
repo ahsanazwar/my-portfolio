@@ -4,9 +4,9 @@ import EducationList from "@components/education-list";
  
 const Education = () => {
     return ( 
-        <SectionContainer heading="Education & Certificates">
-            <div className="flex flex-col items-center">
-                <ul className="customList text-center sm:text-left w-4/5 sm:w-[18%] relative">
+        // <SectionContainer heading="Education & Certificates">
+            <div className="flex flex-col items-center w-4/5 sm:w-[50%]">
+                <ul className="customList text-center sm:text-left relative">
 
                     <EducationList
                         duration="2021-2023"
@@ -30,7 +30,7 @@ const Education = () => {
                     />
                 </ul>
             </div>
-        </SectionContainer>
+        // </SectionContainer>
      );
 }
 

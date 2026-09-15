@@ -16,6 +16,7 @@ import ThemeContext from '@context/theme/themeContext';
 import CopyRight from '@components/copy-right';
 import DownloadResume from '@components/download-resume';
 import SkillsChips from '@components/skills-chips';
+import SectionContainer from '@layouts/section-container';
 
 const Track_ID = "G-VEBTE3N60Y"
 ReactGA.initialize(Track_ID);
@@ -85,20 +86,24 @@ function App() {
     <>
       {/* <img src="dark-logo.png" width={250} height={50} alt="Logo" /> */}
         <div className={`${theme && "dark"}`}>
-          <main className="dark:bg-black pt-10 px-7 relative z-10"> 
-              <img src="pattern-left.png" className="custom-pattern fixed -left-7 bottom-7 -z-10 w-72 opacity-10 hidden sm:block"/>
-              <img data-speed="0.8" src="pattern-right.png" className="custom-pattern fixed -right-7 bottom-7 -z-10 w-72 opacity-10 hidden sm:block"/>
+          <Navbar/>
+          <main className="dark:bg-[#0e0d12] pt-36 px-7 relative"> 
+              {/* <img src="pattern-left.png" className="custom-pattern fixed -left-7 bottom-7 -z-10 w-72 opacity-10 hidden sm:block"/>
+              <img data-speed="0.8" src="pattern-right.png" className="custom-pattern fixed -right-7 bottom-7 -z-10 w-72 opacity-10 hidden sm:block"/> */}
               <div className="hidden sm:block"></div>
               <div className="follower bg-blue dark:bg-purple hidden sm:block"></div>
 
             <WebLoader/>
-            <Navbar/>
             <DownloadResume/>
             <MainBanner/>
             <SkillsChips/>
             <Projects/>
-            <Education/>
-            <Career/>
+            <SectionContainer heading="Experience & Education">
+              <div className="flex m-auto w-[80%] sm:w-[70%] flex-col sm:flex-row justify-between gap-10 sm:gap-0">
+                <Career/>
+                <Education/>
+              </div>
+            </SectionContainer>
             <SkillsSection/>
             <CopyRight/>
           </main>

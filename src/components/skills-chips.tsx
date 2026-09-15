@@ -9,7 +9,7 @@ const SkillsChips = () => {
             <div className="container">
                 <h2 className="text-blue dark:text-purple mb-2">Skills</h2>
                 <div className="flex flex-col sm:flex-row justify-between items-center">
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 flex-wrap">
                         <div className="rounded-md bg-pink-600 py-0.5 px-2.5 border border-transparent text-sm text-white transition-all shadow-sm">
                             Javascript 
                         </div>
@@ -45,6 +45,18 @@ const SkillsChips = () => {
                         </div>
                         <div className="rounded-md bg-yellow-600 py-0.5 px-2.5 border border-transparent text-sm text-white transition-all shadow-sm">
                             GSAP 
+                        </div>
+                        <div className="rounded-md bg-red-950 py-0.5 px-2.5 border border-transparent text-sm text-white transition-all shadow-sm">
+                            ChatGPT 
+                        </div>
+                        <div className="rounded-md bg-fuchsia-950 py-0.5 px-2.5 border border-transparent text-sm text-white transition-all shadow-sm">
+                            Google Gemini
+                        </div>
+                        <div className="rounded-md bg-pink-600 py-0.5 px-2.5 border border-transparent text-sm text-white transition-all shadow-sm">
+                            Microsoft Copilot
+                        </div>
+                        <div className="rounded-md bg-green-600 py-0.5 px-2.5 border border-transparent text-sm text-white transition-all shadow-sm">
+                            Claude
                         </div>
                     </div>
                 </div>
