@@ -1,4 +1,4 @@
-import SectionContainer from "@layouts/section-container";
+// import SectionContainer from "@layouts/section-container";
 import JobList from "@components/job-list";
 
 const Career = () => {

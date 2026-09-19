@@ -1,4 +1,4 @@
-import SectionContainer from "@layouts/section-container";
+// import SectionContainer from "@layouts/section-container";
 import EducationList from "@components/education-list";
 
  
