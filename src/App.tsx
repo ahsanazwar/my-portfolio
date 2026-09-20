@@ -18,7 +18,7 @@ import DownloadResume from '@components/download-resume';
 import SkillsChips from '@components/skills-chips';
 import SectionContainer from '@layouts/section-container';
 
-const Track_ID = "G-VEBTE3N60Y"
+const Track_ID = "G-XQNRL0E8T5"
 ReactGA.initialize(Track_ID);
 
 gsap.registerPlugin(ScrollTrigger);
