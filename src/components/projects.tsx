@@ -18,7 +18,14 @@ const Projects = () => {
                     title={"e-Tools Support at Home"}
                     image="eSAH-bnr-screens-080525.jpg"
                     description="Part of the product team developing the e-Tools Support at Home web application as a Frontend Developer, building a modern, scalable, and responsive user interface using React and Next.js. The application is designed to streamline support processes by providing users with an efficient platform to manage and access home support services. I focused on creating reusable components, implementing responsive layouts, and delivering a seamless user experience across different devices. The project included building dynamic forms with robust client-side validation using React Hook Form and Zod, ensuring accurate data collection and an improved user experience. I also used Material UI to create a consistent, accessible, and modern interface while following best practices for performance and maintainability."
-                    url="https://e-tools.com.au/product/e-tools-support-at-home-software/"
+                    url="https://offshore-dev.e-tools.com.au/eSAH/login?email=cmVoZWRhbjYyM0BmYW5uZWF0LmNvbQ=="
+                />
+
+                <ProjectCard
+                    title={"e-Tools Maintenance Management Web Application"}
+                    image="emrBanner.png"
+                    description="A web-based enterprise application for managing preventative and ad-hoc maintenance operations in aged care and community care environments. As a Frontend Developer, I worked on responsive UI development, maintenance workflows, forms, data-driven interfaces, task management, calendar views, and reusable frontend components, with a strong focus on usability and scalable application architecture."
+                    url="https://offshore-dev.e-tools.com.au/eMR/login?email=cmVoZWRhbjYyM0BmYW5uZWF0LmNvbQ=="
                 />
                 
                 <ProjectCard
