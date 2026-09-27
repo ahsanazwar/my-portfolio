@@ -28,12 +28,12 @@ const Projects = () => {
                     url="https://offshore-dev.e-tools.com.au/eMR/login?email=cmVoZWRhbjYyM0BmYW5uZWF0LmNvbQ=="
                 />
                 
-                <ProjectCard
+                {/* <ProjectCard
                     title={"Nida Ul Quran"}
                     image="nida-ul-quran.png"
                     description="This project is an online Quran learning platform that helps students connect with teachers for virtual Quran classes. My role was to modernize the frontend by rebuilding the user interface using React.js. I redesigned the UI with a focus on responsiveness, ensuring a seamless experience across desktop, tablet, and mobile devices. I also improved the overall layout, navigation, and user experience to create a cleaner, more modern, and user-friendly interface."
                     url="https://nidaulquran.com/home"
-                />
+                /> */}
 
                 <ProjectCard
                     title={"Honda Middle East"}
