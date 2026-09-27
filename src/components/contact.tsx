@@ -11,8 +11,8 @@ const Contact = ({title,country,email,phone}:Props) => {
             <h2 className="text-blue dark:text-purple mb-2">{title}</h2>
             <div className="leading-7">
                 <p className="text-black text-lg">{country}</p>
-                <p className="text-black text-lg"><a href={`mailto:${email}`}>{email}</a></p>
-                <p className="text-black text-lg"><a href={`tel:${phone}`}>{phone}</a></p>
+                <p className="text-black text-lg hover:underline"><a className="relative z-10" href={`mailto:${email}`}>{email}</a></p>
+                <p className="text-black text-lg hover:underline"><a className="relative z-10" href={`tel:${phone}`}>{phone}</a></p>
             </div>    
         </div> 
      );

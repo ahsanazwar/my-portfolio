@@ -12,17 +12,17 @@ const Social = ({title,fbLink,githhubLink,linkedinLink}:Props) => {
             <h2 className="text-blue dark:text-purple mb-2">{title}</h2>
             <ul className="flex items-center justify-center sm:justify-end gap-5">
                 <li>
-                    <a href={`${fbLink}`}>
+                    <a href={`${fbLink}`} target="_blank" rel="noopener noreferrer" className="relative z-10">
                         <img className="w-[60px] h-[60px]" src="fb.svg"/>
                     </a>
                 </li>
                 <li>
-                    <a href={`${githhubLink}`}>
+                    <a href={`${githhubLink}`} target="_blank" rel="noopener noreferrer" className="relative z-10">
                         <img className="w-[50px] h-[50px] bg-white rounded-full" src="github.svg"/>
                     </a>
                 </li>
                 <li>
-                    <a href={`${linkedinLink}`}>
+                    <a href={`${linkedinLink}`} target="_blank" rel="noopener noreferrer" className="relative z-10">
                         <img className="w-[60px] h-[60px]" src="linkedin.svg"/>
                     </a>
                 </li>
