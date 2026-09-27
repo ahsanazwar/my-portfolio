@@ -8,7 +8,7 @@ const Career = () => {
                 <ul className="customList text-center sm:text-left relative">
                     <JobList
                         duration="03/2025-2025-Present"
-                        title="Frontend Developer"
+                        title="Senior Frontend Developer"
                         company={"e-Tools Softare"}
                         url="https://e-tools.com.au"
                     />

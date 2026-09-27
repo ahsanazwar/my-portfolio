@@ -13,7 +13,7 @@ const MainBanner = () => {
             <div>
                 <IntroSection
                     title="Ahsan Azwar"
-                    designation="Frontend Developer"
+                    designation="Senior Frontend Developer"
                 />
                 <div className="flex items-center py-[2.375rem] sm:py-[4.375rem] w-full flex-col">
                     <div className="container">

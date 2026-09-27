@@ -8,7 +8,7 @@ interface Props {
 const ProjectCard = ({title,image,description,url}:Props) => {
     return ( 
         <>
-            <div className="w-full sm:w-[30%] mb-12 last:mb-0">
+            <div className="w-full sm:w-[30%] mb-12 last:mb-0 relative z-10">
                 <a href={url} target="_blank" className="bg-[#ccc] dark:bg-[#353333] p-card sm:bg-transparent dark:sm:bg-transparent block hover:bg-[#ccc]  dark:hover:bg-[#353333] cursor-pointer">
                     <div>
                         <img src={image}/>
